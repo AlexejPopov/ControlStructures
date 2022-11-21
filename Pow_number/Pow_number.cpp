@@ -27,6 +27,11 @@ int main()
 float Power(float digit, float power)
 {
     float result = 1.0F;
+    if (power < 0)
+    {
+        digit = 1 / digit;
+        power = -power;
+    }
     for (int i = 0; i < power; i++)
     {
         result *= digit;

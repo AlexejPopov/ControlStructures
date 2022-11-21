@@ -14,7 +14,7 @@ int main()
 		system("cls");
 		cout << "Введите основание степени: "; cin >> A;
 		cout << "Введите степень: "; cin >> B;
-		float result = powf(A, B);
+		float result = pow(A, B);
 		cout << "Результат равен: " << result << endl;
 		control = 0;
 		cout << "\nДля выхода нажмите 0 или любую букву. Для продолжения счета нажмите любую цифру: "; cin >> control;
