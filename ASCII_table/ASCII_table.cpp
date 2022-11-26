@@ -1,10 +1,10 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "");
-	cout << "Òàáëèöà ASCII-ñèìâîëîâ:\n";
+	cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° ASCII-ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²:\n";
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < 256; i++)
 	{
@@ -13,5 +13,5 @@ int main()
 	}
 	cout << endl;
 	setlocale(0, "");
-	cout << "Âîò è ñêàçî÷êå êîíåö" << endl;
+	cout << "Ð’Ð¾Ñ‚ Ð¸ ÑÐºÐ°Ð·Ð¾Ñ‡ÐºÐµ ÐºÐ¾Ð½ÐµÑ†" << endl;
 }
